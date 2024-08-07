@@ -1,0 +1,20 @@
+{
+  "manifest_version": 3,
+  "name": "Auto Next Button Clicker with Sound Alert",
+  "version": "1.0",
+  "description": "Automatically clicks 'Next' buttons and plays a sound when a submit button appears.",
+  "permissions": [
+    "activeTab"
+  ],
+  "host_permissions": [
+    "https://www.ayporealestate.com/*"
+  ],
+  "content_scripts": [
+    {
+      "matches": ["https://www.ayporealestate.com/*"],
+      "js": ["content.js"],
+      "run_at": "document_idle"
+    }
+  ],
+  "action": {}
+}
