@@ -1,4 +1,7 @@
 # TREC_Agent_Course_Automator
+When you are taking the TREC-Texas Real Estate Commission 180-hr courses, and you select ayporealestate as the course provider, you can run this extension to automate the clicking of next button when a modules completes. It plays a sound whenever the quiz is ready. You can fine tune a LLM (like Chat-GPT) with the course pdf and ask it question by pasting in the question/answer screenshot.
+You only need to be in front of the computer, when the MCQ quiz is ready. You are alerted with a sound, which keeps on playing until the quiz screen is not complete.
+
 This Chrome extension automates the process of clicking 'Next' buttons on specified web pages and alerts users with a sound when a submit button appears. 
 
 
